@@ -1,0 +1,16 @@
+.filterWrap {
+    display: flex;
+    flex-direction: column;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    gap: 8px;
+}
+
+.filterLabel{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.filterInput {
+    width: 180px;
+}

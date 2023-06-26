@@ -1,0 +1,28 @@
+.phoneForm {
+  padding-bottom: 24px;
+  padding-top: 16px;
+}
+
+.phoneFormWrap {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  gap: 8px;
+}
+
+.phoneFormBtn {
+  width: fit-content;
+  cursor: pointer;
+  &:hover {
+    background-color: rgb(25, 130, 130);
+  }
+}
+
+.contactFormLabel {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.contactFormInput {
+  width: 180px;
+}
